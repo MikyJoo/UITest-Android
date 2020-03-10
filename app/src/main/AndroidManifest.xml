@@ -16,6 +16,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity android:name=".DrawTouchActivity" />
+        <activity android:name=".SignatureLibActivity" />
+        <activity android:name=".SignatureLibActivity" />
     </application>
 
 </manifest>

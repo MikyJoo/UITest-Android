@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:padding="20dp"
+    android:clipToPadding="false"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center">
+
+<!--    <ImageView-->
+<!--        android:id="@+id/shadow_light"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:scaleType="centerInside"-->
+<!--        android:background="@drawable/nmview_button_shadow_light"-->
+<!--        android:translationX="-6dp"-->
+<!--        android:translationY="-6dp" />-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/shadow_dark"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:scaleType="centerInside"-->
+<!--        android:background="@drawable/nmview_button_shadow_dark"-->
+<!--        android:translationX="6dp"-->
+<!--        android:translationY="6dp" />-->
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/nmview_button"
+        android:text="NM Test" />
+<!--        android:layout_gravity="center"  />-->
+
+</FrameLayout>

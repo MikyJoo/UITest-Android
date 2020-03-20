@@ -19,7 +19,8 @@
 
         <activity android:name=".DrawTouchActivity" />
         <activity android:name=".SignatureLibActivity" />
-        <activity android:name=".SignatureLibActivity" />
+        <activity android:name=".CircleProgressActivity" />
+        <activity android:name=".NeumorphismTestActivity" />
     </application>
 
 </manifest>

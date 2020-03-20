@@ -16,7 +16,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintBottom_toTopOf="@+id/circle_progress" />
+        app:layout_constraintBottom_toTopOf="@id/signature_lib" />
 
     <Button
         android:layout_width="wrap_content"
@@ -24,10 +24,10 @@
         android:id="@+id/signature_lib"
         android:text="Signature Lib"
         android:textAllCaps="false"
-        app:layout_constraintTop_toBottomOf="@+id/draw_touch"
+        app:layout_constraintTop_toBottomOf="@id/draw_touch"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintBottom_toTopOf="@+id/circle_progress" />
+        app:layout_constraintBottom_toTopOf="@id/circle_progress" />
 
     <Button
         android:layout_width="wrap_content"
@@ -35,7 +35,18 @@
         android:id="@+id/circle_progress"
         android:text="Circle Progress"
         android:textAllCaps="false"
-        app:layout_constraintTop_toBottomOf="@+id/signature_lib"
+        app:layout_constraintTop_toBottomOf="@id/signature_lib"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/neumorphism" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/neumorphism"
+        android:text="Neumorphism Test"
+        android:textAllCaps="false"
+        app:layout_constraintTop_toBottomOf="@id/circle_progress"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintBottom_toBottomOf="parent" />

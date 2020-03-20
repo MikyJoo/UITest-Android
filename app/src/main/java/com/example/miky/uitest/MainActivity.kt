@@ -18,6 +18,10 @@ class MainActivity : AppCompatActivity() {
         signature_lib.setOnClickListener {
             startActivity(Intent(this, SignatureLibActivity::class.java))
         }
+
+        neumorphism.setOnClickListener {
+            startActivity(Intent(this, NeumorphismTestActivity::class.java))
+        }
     }
 
 }
